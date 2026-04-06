@@ -47,13 +47,13 @@
             
             <div class="grid grid-cols-1 gap-4">
                 <button onclick="startGame('sejarah')" class="bg-orange-500 hover:bg-orange-600 p-4 rounded-xl font-bold transition-all transform hover:scale-105">
-                    📜 Sejarah Dunia new toy
+                    📜 Sejarah Dunia 
                 </button>
                 <button onclick="startGame('geografi')" class="bg-blue-500 hover:bg-blue-600 p-4 rounded-xl font-bold transition-all transform hover:scale-105">
-                    🏔️ Geografi Alamdannewtoy m
+                    🏔️ Geografi Alam
                 </button>
                 <button onclick="startGame('biologi')" class="bg-green-500 hover:bg-green-600 p-4 rounded-xl font-bold transition-all transform hover:scale-105">
-                    🌿 Biologi & Ekosistem & new mapel
+                    🌿 Biologi & Ekosistem 
                 </button>
             </div>
         </div>
@@ -98,7 +98,7 @@
     <!-- Modal Hasil -->
     <div id="result-modal" class="hidden fixed inset-0 z-[100] bg-black/60 flex items-center justify-center p-4">
         <div class="bg-white p-8 rounded-3xl max-w-sm w-full text-center">
-            <div id="result-icon" class="text-6xl mb-4">👅</div>
+            <div id="result-icon" class="text-6xl mb-4">💣</div>
             <h3 class="text-2xl font-bold mb-2" id="result-title">Hebat!</h3>
             <p id="result-distance" class="text-slate-600 mb-1">Jarak: 0 km</p>
             <p id="result-points" class="text-indigo-600 font-bold text-xl mb-6">+0 Poin</p>
@@ -110,7 +110,7 @@
     <script>
         const questions = {
             sejarah: [
-                { q: "Di manakah letak rumah abu", lat: -6.488462, lng: 106.885044 },
+                { q: "Di manakah letak piramida giza", lat: 29977509, lng: 31.132707 },
                 { q: "Lokasi Candi Borobudur, monumen Budha terbesar di dunia.", lat: -7.6079, lng: 110.2038 },
                 { q: "Di kota manakah tembok besar Berlin pernah membagi dua ideologi dunia?", lat: 52.5163, lng: 13.3777 },
                 { q: "Tempat berdirinya Menara Pisa yang miring.", lat: 43.7230, lng: 10.3966 },
