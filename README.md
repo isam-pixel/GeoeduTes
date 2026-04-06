@@ -110,7 +110,7 @@
     <script>
         const questions = {
             sejarah: [
-                { q: "Di manakah letak piramida giza", lat: 29977509, lng: 31.132707 },
+                { q: "Di manakah letak piramida giza", lat: 29.977509, lng: 31.132707 },
                 { q: "Lokasi Candi Borobudur, monumen Budha terbesar di dunia.", lat: -7.6079, lng: 110.2038 },
                 { q: "Di kota manakah tembok besar Berlin pernah membagi dua ideologi dunia?", lat: 52.5163, lng: 13.3777 },
                 { q: "Tempat berdirinya Menara Pisa yang miring.", lat: 43.7230, lng: 10.3966 },
